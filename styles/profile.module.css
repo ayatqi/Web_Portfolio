@@ -1,0 +1,65 @@
+.main_content {
+    display: flex;
+   
+}
+
+.main_content div{
+    flex: 1;
+}
+
+.profile_content{
+   top: 9em;
+   padding: 1rem;
+   margin-right: 50rem;
+}
+
+.profile_content p{
+    font-style: normal;
+    font-weight: 480;
+    font-size: 28px;
+    line-height: 20px;
+    color: #86766C;
+}
+
+.profile_content p span{
+    color:#000;
+}
+
+.profile_content .Myname{
+    color:#000;
+    font-size: 40px;
+}
+
+.profile_content  div{
+    width: 450px;
+}
+
+.profile_content  .MyDescription p{
+    font-size: 19px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.letsbtn {
+    padding-top: 3rem;
+}
+
+.letsbtn button{
+  
+    background: linear-gradient(270deg, #A08F83 11.56%, rgba(134, 118, 108, 0.48) 100%);
+    box-shadow: 0px 20px 15px rgba(134, 118, 108, 0.31);
+    border-radius: 10px;
+    width: 147px;
+    height: 41px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.frame_img img{
+    
+}

@@ -1,0 +1,78 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #86766C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  left: 2%;
+}
+
+.contact  p{
+  font-size: 15px;
+  margin-right: 2px;
+}
+
+.contact  p a{
+  text-decoration: none;
+  color: #fffdfb;
+  margin-left: 1rem;
+}
+
+.nav {
+  position: absolute;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  left: 25%;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li{
+  margin-top: 0.5rem;
+}
+
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 3rem;
+  font-size: 15px;
+}
+
+.backToTop {
+  position: absolute;
+  right: 2rem;
+}
+
+.backToTop button{
+  background-color: #f4efe8;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  float: right;
+}
+
+.copyright {
+  position: absolute;
+  margin-bottom: -9rem;
+  padding-left: 2rem;
+  left: 0rem;
+}
+
+.copyright p{
+  font-size: 0.8rem;
+  color: #fffdfb;
+
+}

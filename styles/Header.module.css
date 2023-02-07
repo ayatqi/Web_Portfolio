@@ -1,12 +1,13 @@
 .header {
-  background-color: #5f7264;
   width: 100%;
-  color: #fff;
+  color: #86766C;
   position: absolute;
   top: 0;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  padding-left: 3rem;
+  
 }
 
 .header div {
@@ -15,20 +16,25 @@
 
 .header div h1 {
   margin: 0;
+  font-weight: normal;
 }
 .header div nav{
   position: absolute;
-  right: 0;
-  margin-right: 5%;
+  left: 35%;
 }
 .header div nav ul {
   list-style: none;
   display: flex;
 }
 
+.header div nav li{
+ 
+  margin-left: 15%;
+}
+
 .header div nav a {
-  color: #fff;
+  color: #86766C;
   text-decoration: none;
   margin-right: 3rem;
-  font-size: 18px;
+  font-size: 19px;
 }
