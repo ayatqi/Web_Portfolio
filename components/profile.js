@@ -1,5 +1,5 @@
 import styles from '../styles/profile.module.css'
-import React from 'react';
+import profileImage from 'ProfilePic.png';
 
 export default function Profile() {
     return (
@@ -27,7 +27,7 @@ export default function Profile() {
         </div>
 
         <div className={styles.frame_img}>
-        <img src="../Images/FramePic.svg" alt="Frame Image" />
+            <img src={profileImage} />
         </div>
 
     </div>
