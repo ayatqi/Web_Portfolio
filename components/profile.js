@@ -1,5 +1,4 @@
 import styles from '../styles/profile.module.css'
-import profileImage from 'ProfilePic.png';
 
 export default function Profile() {
     return (
@@ -8,7 +7,7 @@ export default function Profile() {
 
         <div className={styles.profile_content}>
 
-        <p>Hello, <span>I'm</span> </p>
+        <p>Hello! I'm... </p>
         <p className={styles.Myname}>Ayat Al-Khulaqi</p>
         <p>Data Science Student </p>
 
@@ -27,7 +26,7 @@ export default function Profile() {
         </div>
 
         <div className={styles.frame_img}>
-            <img src={profileImage} />
+            <img src="../static/image/Frame.png"/>
         </div>
 
     </div>

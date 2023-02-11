@@ -1,10 +1,5 @@
 import styles from '../styles/Footer.module.css'
-import React, { useEffect } from 'react';
-import email from '../Icons/email.png';
-import instagram from '../Icons/instagram.png';
-import linkedin from '../Icons/linkedin.png';
-import phone from '../Icons/phone.png';
-
+import React from 'react';
 
 const Footer = () => {
   const handleClick = () => {

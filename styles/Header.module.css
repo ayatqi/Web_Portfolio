@@ -5,9 +5,7 @@
   top: 0;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  padding-left: 3rem;
-  
+  padding: 2rem 0rem 0rem 5rem;
 }
 
 .header div {
@@ -17,24 +15,41 @@
 .header div h1 {
   margin: 0;
   font-weight: normal;
+  font-family: 'Inter';
 }
 .header div nav{
+  height: 100vh;
+  left: 70%;
   position: absolute;
-  left: 35%;
-}
-.header div nav ul {
-  list-style: none;
-  display: flex;
-}
-
-.header div nav li{
- 
-  margin-left: 15%;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  
 }
 
 .header div nav a {
+  position: relative;
   color: #86766C;
   text-decoration: none;
   margin-right: 3rem;
   font-size: 19px;
+  font-family: 'Inter';
+  
+}
+
+.header div nav a::after{
+  content: "";
+  position: absolute;
+  background-color: #86766C;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+} 
+
+.header div nav a:hover::after{
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
 }

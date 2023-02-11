@@ -2,12 +2,13 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Profile from '@components/Profile'
-
+import MyServices from '@components/MyServices'
+import styles from '../styles/index.module.css'
 
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>My Portfolio!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,12 +16,15 @@ export default function Home() {
 
       <main>
       <Header></Header>
-      <Profile></Profile>
       </main>
 
+      <div  className={styles.profile}>
+      <Profile></Profile>
+      </div>
       
-
-      <Footer />
+      <div className={styles.MyServices}>
+      <MyServices></MyServices>
+      </div>
 
     </div>
   )

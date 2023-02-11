@@ -1,6 +1,5 @@
 .main_content {
     display: flex;
-   
 }
 
 .main_content div{
@@ -8,33 +7,35 @@
 }
 
 .profile_content{
-   top: 9em;
-   padding: 1rem;
-   margin-right: 50rem;
+   margin-right: 20rem;
 }
 
 .profile_content p{
     font-style: normal;
-    font-weight: 480;
-    font-size: 28px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 5px;
     color: #86766C;
-}
-
-.profile_content p span{
-    color:#000;
+    font-family: 'Inter';
 }
 
 .profile_content .Myname{
-    color:#000;
-    font-size: 40px;
+    color:#86766C;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 5px;
+    
 }
 
 .profile_content  div{
-    width: 450px;
+    width: 500px;
 }
 
 .profile_content  .MyDescription p{
+    margin-top: 2.7rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
     font-size: 19px;
     line-height: 23px;
     text-align: justify;
@@ -46,20 +47,25 @@
 
 .letsbtn button{
   
-    background: linear-gradient(270deg, #A08F83 11.56%, rgba(134, 118, 108, 0.48) 100%);
-    box-shadow: 0px 20px 15px rgba(134, 118, 108, 0.31);
+    position: absolute;
+    background-color: #D3C7C3;
     border-radius: 10px;
     width: 147px;
     height: 41px;
     border: none;
+    left: 355px;
+    top: 340px;
 
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: #86766C;
+    font-family: 'Inter';
 }
 
-.frame_img img{
-    
+.letsbtn button:hover{
+    color:#B6B4B2;
+    background-color: #DEDCDC;
+    cursor: pointer;
 }
