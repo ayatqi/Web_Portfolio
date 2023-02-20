@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Footer from '@components/Footer'
 import Profile from '@components/Profile'
-import MyServices from '@components/MyServices'
+import MyProjects from '@components/MyProjects'
 import styles from '../styles/index.module.css'
 
 
@@ -22,8 +21,8 @@ export default function Home() {
       <Profile></Profile>
       </div>
       
-      <div className={styles.MyServices}>
-      <MyServices></MyServices>
+      <div className={styles.MyProjects}>
+      <MyProjects></MyProjects>
       </div>
 
     </div>

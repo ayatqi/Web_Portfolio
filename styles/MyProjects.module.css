@@ -1,0 +1,97 @@
+
+.main{
+  position: absolute;
+  width: 100%;
+  min-height: 885px; 
+  left: 0px;
+  top: 701px;
+  margin-top: 5rem;
+  background: #E7E3DF;
+}
+
+.title {
+  position: absolute;
+  width: 240px;
+  height: 53px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #86766C;
+  left: 50%;
+  }
+
+.Projects{
+    position: absolute;
+    top: 11rem;
+  }
+
+.Prj{
+      display: flex;
+      width: 100%;
+  }
+
+  .Prj div{
+    flex: 2;
+    margin-left: 1rem;
+    margin-bottom: 10rem;
+  }
+  
+
+  .content_1{
+    position: absolute;
+    left: 115px;
+  }
+  
+  .content_1 iframe{
+    width: 16rem;
+    height: 16rem;
+    background: #EFEEEC;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-left: 5rem;
+    border: none;
+  }
+
+  .content_2{
+    width: 1000px;
+    height: 181px;
+  }
+
+  .content_2 div{
+    position: absolute;
+    left: 35rem;
+  }
+  .content_2 div h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #86766C;
+  }
+  
+  .content_2 div h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86766C;
+  }
+  
+  .content_2 div a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 11px;
+    color: #86766C;
+  }
+  
