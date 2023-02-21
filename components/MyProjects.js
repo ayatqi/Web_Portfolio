@@ -33,7 +33,7 @@ export default function Header() {
 
             <div className={styles.Prj}>
                <div className={styles.content_1}>
-                    <iframe src="../PDF/Report.pdf" width="100%" height="100%"></iframe>
+                    <iframe src="/Report.pdf" width="100%" height="100%"></iframe>
                </div>
 
                <div className={styles.content_2}>
