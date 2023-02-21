@@ -1,4 +1,4 @@
-import styles from '../styles/profile.module.css'
+import styles from '@styles/profile.module.css'
 
 export default function Profile() {
     return (
@@ -26,7 +26,7 @@ export default function Profile() {
         </div>
 
         <div className={styles.frame_img}>
-            
+            <img src="../static/image/Frame.png"/>
         </div>
 
     </div>

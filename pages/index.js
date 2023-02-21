@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Header from '../components/Header'
-import Profile from '../components/Profile'
-import MyProjects from '../components/MyProjects'
-import styles from '../styles/index.module.css'
+import Header from '@components/Header'
+import Profile from '@components/Profile'
+import MyProjects from '@components/MyProjects'
+import styles from '@styles/index.module.css'
 
 
 export default function Home() {
