@@ -1,7 +1,7 @@
 import styles from '@styles/MyProjects.module.css'
 
 
-export default function Header() {
+export default function MyProject() {
     return (
     <>
       <div className={styles.main}>
