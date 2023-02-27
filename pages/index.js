@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Profile from '@components/Profile'
+import Profile from '@components/profile'
 import MyProjects from '@components/MyProjects'
 import styles from '@styles/index.module.css'
 
