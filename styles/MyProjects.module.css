@@ -6,7 +6,7 @@
   left: 0px;
   top: 701px;
   margin-top: 5rem;
-  background: #E7E3DF;
+  background: #EBE6E1;
 }
 
 .title {
@@ -29,7 +29,7 @@
 
 .Projects{
     position: absolute;
-    top: 11rem;
+    top: 13rem;
   }
 
 .Prj{
@@ -39,28 +39,26 @@
 
   .Prj div{
     flex: 2;
-    margin-left: 1rem;
-    margin-bottom: 10rem;
+    margin-left: -14rem;
+    margin-bottom: 2rem;
   }
   
 
   .content_1{
     position: absolute;
-    left: 115px;
-  }
-  
-  .content_1 iframe{
-    width: 16rem;
-    height: 16rem;
-    background: #EFEEEC;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 15px;
-    margin-left: 5rem;
-    border: none;
+    margin-top: -1rem;
+    left: 400px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 146px;
+    color: #86766C;
   }
 
+
   .content_2{
-    width: 1000px;
+    width: 1500px;
     height: 181px;
   }
 

@@ -20,7 +20,7 @@ export default function Profile() {
         </div>
 
         <div className={styles.letsbtn}>
-            <button>Let's Talk</button>
+            <button onclick="window.location.href='mailto:ayatabdulaziz.qi@gmail.com';">Let's Talk</button>
         </div>
 
         </div>

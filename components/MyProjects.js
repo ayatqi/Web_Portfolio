@@ -14,9 +14,7 @@ export default function MyProject() {
 
             <div className={styles.Prj}>
                <div className={styles.content_1}>
-
-                    <iframe></iframe>
-
+               1
                </div>
 
                <div className={styles.content_2}>
@@ -33,7 +31,7 @@ export default function MyProject() {
 
             <div className={styles.Prj}>
                <div className={styles.content_1}>
-                    <iframe src="../PDF/Report.pdf" width="100%" height="100%"></iframe>
+                   2
                </div>
 
                <div className={styles.content_2}>
