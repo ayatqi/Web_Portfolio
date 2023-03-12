@@ -26,7 +26,7 @@ export default function Profile() {
         </div>
 
         <div className={styles.frame_img}>
-            <img src="../static/image/Frame.png"/>
+            <img src="/Frame.png"/>
         </div>
 
     </div>
