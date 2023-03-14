@@ -2,7 +2,7 @@
 .main{
   position: absolute;
   width: 100%;
-  min-height: 885px; 
+  min-height: 1485px; 
   left: 0px;
   top: 701px;
   margin-top: 5rem;
@@ -29,7 +29,7 @@
 
 .Projects{
     position: absolute;
-    top: 13rem;
+    top: 12rem;
   }
 
 .Prj{
@@ -91,5 +91,10 @@
     font-size: 18px;
     line-height: 11px;
     color: #86766C;
+    text-decoration: none;
   }
   
+  .content_2 div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
